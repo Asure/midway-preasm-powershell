@@ -8,6 +8,7 @@ Todo:
 - Command line options
 - Fix fringe cases like these where we don't want to change the #NXT or others in the struct.
 
+```
 #lp1    move    *a0(#NXT),a14,W 
 	STRUCT	0
 	WORD	#XPOS
@@ -16,7 +17,12 @@ Todo:
 	WORD	#INRING
 	LABEL	#SIZE
 	WORD	#NXT	;first element of NEXT entry. check for -1.
+```
 
 - More exceptions?
+- Counters
+- Stats
+- ?
+
 
 
